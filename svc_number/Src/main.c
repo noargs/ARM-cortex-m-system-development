@@ -19,7 +19,12 @@ void SVC_Handler_c(uint32_t *p_Base_of_stack_frame);
 int main(void)
 {
 	__asm ("SVC #8"); // or you can give #0x08
-    /* Loop forever */
+
+	//register uint32_t data __asm("r0");
+
+	uint32_t data;
+	__asm volatile ("MOV %0, R0": "=r"(data) ::);
+
 	for(;;);
 }
 
@@ -32,7 +37,7 @@ __attribute__ ((naked)) void SVC_Handler(void)
 
 void SVC_Handler_c(uint32_t *p_Base_of_stack_frame)
 {
-	printf("in SVC Handler\n");
+	//printf("in SVC Handler\n");
 
 	uint8_t *p_Return_addr_PC = (uint8_t*) p_Base_of_stack_frame[6];
 
@@ -43,7 +48,9 @@ void SVC_Handler_c(uint32_t *p_Base_of_stack_frame)
 	//3. extract the SVC number (LSByte of the Opcode)
 	uint8_t svc_number = *p_Return_addr_PC;
 
-	printf("Svc number is : %d\n", svc_number);
+	//printf("Svc number is : %d\n", svc_number);
 
+	svc_number += 4;
 
+	p_Base_of_stack_frame[0] = svc_number;
 }
