@@ -1,3 +1,6 @@
+#ifndef __MAIN_H
+#define __MAIN_H
+
 #include <stdint.h>
 
 #define MAX_TASKS			 4
@@ -24,3 +27,4 @@
 #define HSI_CLOCK            16000000U  // 1600000Hz OR 16Mhz
 #define SYSTICK_TIM_CLK      HSI_CLOCK
 
+#endif
