@@ -171,7 +171,7 @@ __attribute__((naked)) void switch_sp_to_psp(void)
 	__asm volatile ("BX LR");
 }
 
-void SysTick_Handler(void)
+__attribute__((naked)) void SysTick_Handler(void)
 {
 	/* Save the context of current task */
 
@@ -179,6 +179,11 @@ void SysTick_Handler(void)
 	__asm volatile ("MRS R0,PSP");
 	//2. Using that PSP value store SF2 (R4 to R11)
 	__asm volatile ("STMDB R0!,{R4-R11}");
+
+	// important to save LR value before running
+	//   any BL instruction
+	__asm volatile ("PUSH {LR}");
+
 	//3. Save the current value of PSP
 	__asm volatile ("BL save_psp_value");
 
@@ -192,6 +197,10 @@ void SysTick_Handler(void)
 	__asm volatile ("LDMIA R0!,{R4-R11}");
 	//4. update PSP and exit
 	__asm volatile ("MSR PSP,R0");
+
+	__asm volatile ("POP {LR}");
+
+	__asm volatile ("BX LR");
 
 }
 
