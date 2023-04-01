@@ -29,6 +29,11 @@ uint8_t current_task = 1; //task1 is running
 /* This variable gets updated from systick handler for every systick interrupt */
 uint32_t g_tick_count = 0;
 
+/* const variable to examine in `final.map` file under `.rodata` section */
+const uint32_t const_v_1 = 100;
+const uint32_t const_v_2 = 100;
+const uint8_t const_v_3 = 100;
+
 /* This is a task control block carries private information of each task */
 typedef struct
 {

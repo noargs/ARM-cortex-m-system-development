@@ -6,6 +6,10 @@
 
 #define STACK_START               SRAM_END
 
+extern uint32_t _etext;
+extern uint32_t _sdata;
+extern uint32_t _edata;
+
 /* function prototypes of STM32F407x system exception and IRQ handlers */
 void Reset_Handler(void);
 void NMI_Handler 					        (void) __attribute__ ((weak, alias("Default_Handler")));
