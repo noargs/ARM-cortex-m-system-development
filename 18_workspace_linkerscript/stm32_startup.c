@@ -202,4 +202,13 @@ uint32_t vectors[] __attribute__((section(".isr_vector"))) = {
 
 void Default_Handler(void){while(1);}
 
-void Reset_Handler(void){}
+void Reset_Handler(void)
+{
+	// Copy .data section to SRAM
+	
+	// Initialise the .bss section to zero in SRAM
+	
+	// Call init function of std library
+	
+	// Call main()
+}
