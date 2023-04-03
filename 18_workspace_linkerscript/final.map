@@ -1,204 +1,728 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o (exit)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+                              main.o (puts)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o (memset)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o) (_impure_ptr)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+                              syscalls.o (__errno)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o (__libc_init_array)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o) (_malloc_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o) (_fflush_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o) (__malloc_lock)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o) (__sread)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o) (__swbuf_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o) (__swsetup_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o) (__smakebuf_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o) (_close_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o) (errno)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o) (_fstat_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o) (_isatty_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o) (_lseek_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o) (_read_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o) (_write_r)
+/Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+                              /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o) (_free_r)
 
 Memory Configuration
 
 Name             Origin             Length             Attributes
-FLASH            0x0000000008000000 0x0000000000100000 xr
-SRAM             0x0000000020000000 0x0000000000020000 xrw
-*default*        0x0000000000000000 0xffffffffffffffff
+FLASH            0x08000000         0x00100000         xr
+SRAM             0x20000000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
 
 Linker script and memory map
 
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
 LOAD main.o
 LOAD led.o
 LOAD stm32_startup.o
+LOAD syscalls.o
+START GROUP
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/libgcc.a
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/libgcc.a
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a
+END GROUP
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+LOAD /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
 
-.text           0x0000000008000000      0x7f4
+.text           0x08000000     0x2124
  *(.isr_vector)
- .isr_vector    0x0000000008000000      0x188 stm32_startup.o
-                0x0000000008000000                vectors
+ .isr_vector    0x08000000      0x188 stm32_startup.o
+                0x08000000                vectors
  *(.text)
- .text          0x0000000008000188      0x4d8 main.o
-                0x0000000008000188                main
-                0x00000000080001b4                idle_task
-                0x00000000080001ba                task1_handler
-                0x00000000080001dc                task2_handler
-                0x0000000008000200                task3_handler
-                0x0000000008000224                task4_handler
-                0x0000000008000248                init_systick_timer
-                0x00000000080002b0                init_scheduler_stack
-                0x00000000080002ba                init_tasks_stack
-                0x00000000080003d4                enable_processor_faults
-                0x0000000008000410                get_psp_value
-                0x0000000008000430                save_psp_value
-                0x0000000008000458                update_next_task
-                0x00000000080004e0                switch_sp_to_psp
-                0x00000000080004fa                schedule
-                0x0000000008000520                task_delay
-                0x0000000008000580                PendSV_Handler
-                0x00000000080005a6                update_global_tick_count
-                0x00000000080005c0                unblock_tasks
-                0x0000000008000620                SysTick_Handler
-                0x000000000800064c                HardFault_Handler
-                0x0000000008000652                MemManage_Handler
-                0x0000000008000658                BusFault_Handler
- .text          0x0000000008000660       0xfc led.o
-                0x0000000008000660                delay
-                0x0000000008000688                led_init_all
-                0x00000000080006fc                led_on
-                0x000000000800072c                led_off
- .text          0x000000000800075c       0x8c stm32_startup.o
-                0x000000000800075c                DMA1_Stream3_IRQHandler
-                0x000000000800075c                HASH_RNG_IRQHandler
-                0x000000000800075c                EXTI2_IRQHandler
-                0x000000000800075c                TIM8_CC_IRQHandler
-                0x000000000800075c                DebugMon_Handler
-                0x000000000800075c                TIM1_CC_IRQHandler
-                0x000000000800075c                DMA2_Stream5_IRQHandler
-                0x000000000800075c                DMA1_Stream5_IRQHandler
-                0x000000000800075c                PVD_IRQHandler
-                0x000000000800075c                SDIO_IRQHandler
-                0x000000000800075c                TAMP_STAMP_IRQHandler
-                0x000000000800075c                NMI_Handler
-                0x000000000800075c                CAN2_RX1_IRQHandler
-                0x000000000800075c                EXTI3_IRQHandler
-                0x000000000800075c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x000000000800075c                TIM1_UP_TIM10_IRQHandler
-                0x000000000800075c                TIM8_UP_TIM13_IRQHandler
-                0x000000000800075c                I2C3_ER_IRQHandler
-                0x000000000800075c                EXTI0_IRQHandler
-                0x000000000800075c                I2C2_EV_IRQHandler
-                0x000000000800075c                DMA1_Stream2_IRQHandler
-                0x000000000800075c                CAN1_RX0_IRQHandler
-                0x000000000800075c                FPU_IRQHandler
-                0x000000000800075c                OTG_HS_WKUP_IRQHandler
-                0x000000000800075c                UsageFault_Handler
-                0x000000000800075c                CAN2_SCE_IRQHandler
-                0x000000000800075c                DMA2_Stream2_IRQHandler
-                0x000000000800075c                SPI1_IRQHandler
-                0x000000000800075c                TIM6_DAC_IRQHandler
-                0x000000000800075c                TIM1_BRK_TIM9_IRQHandler
-                0x000000000800075c                DCMI_IRQHandler
-                0x000000000800075c                CAN2_RX0_IRQHandler
-                0x000000000800075c                DMA2_Stream3_IRQHandler
-                0x000000000800075c                USART6_IRQHandler
-                0x000000000800075c                USART3_IRQHandler
-                0x000000000800075c                CRYP_IRQHandler
-                0x000000000800075c                RTC_Alarm_IRQHandler
-                0x000000000800075c                CAN1_RX1_IRQHandler
-                0x000000000800075c                UART5_IRQHandler
-                0x000000000800075c                DMA2_Stream0_IRQHandler
-                0x000000000800075c                TIM4_IRQHandler
-                0x000000000800075c                I2C1_EV_IRQHandler
-                0x000000000800075c                DMA1_Stream6_IRQHandler
-                0x000000000800075c                DMA1_Stream1_IRQHandler
-                0x000000000800075c                UART4_IRQHandler
-                0x000000000800075c                TIM3_IRQHandler
-                0x000000000800075c                RCC_IRQHandler
-                0x000000000800075c                TIM8_BRK_TIM12_IRQHandler
-                0x000000000800075c                Default_Handler
-                0x000000000800075c                EXTI15_10_IRQHandler
-                0x000000000800075c                ADC_IRQHandler
-                0x000000000800075c                DMA1_Stream7_IRQHandler
-                0x000000000800075c                TIM7_IRQHandler
-                0x000000000800075c                CAN2_TX_IRQHandler
-                0x000000000800075c                TIM5_IRQHandler
-                0x000000000800075c                DMA2_Stream7_IRQHandler
-                0x000000000800075c                I2C3_EV_IRQHandler
-                0x000000000800075c                EXTI9_5_IRQHandler
-                0x000000000800075c                RTC_WKUP_IRQHandler
-                0x000000000800075c                ETH_WKUP_IRQHandler
-                0x000000000800075c                SPI2_IRQHandler
-                0x000000000800075c                OTG_HS_EP1_IN_IRQHandler
-                0x000000000800075c                DMA1_Stream0_IRQHandler
-                0x000000000800075c                CAN1_TX_IRQHandler
-                0x000000000800075c                SVC_Handler
-                0x000000000800075c                EXTI4_IRQHandler
-                0x000000000800075c                FSMC_IRQHandler
-                0x000000000800075c                ETH_IRQHandler
-                0x000000000800075c                OTG_HS_EP1_OUT_IRQHandler
-                0x000000000800075c                WWDG_IRQHandler
-                0x000000000800075c                TIM2_IRQHandler
-                0x000000000800075c                OTG_FS_WKUP_IRQHandler
-                0x000000000800075c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x000000000800075c                OTG_HS_IRQHandler
-                0x000000000800075c                EXTI1_IRQHandler
-                0x000000000800075c                USART2_IRQHandler
-                0x000000000800075c                I2C2_ER_IRQHandler
-                0x000000000800075c                DMA2_Stream1_IRQHandler
-                0x000000000800075c                CAN1_SCE_IRQHandler
-                0x000000000800075c                DMA2_Stream4_IRQHandler
-                0x000000000800075c                USART1_IRQHandler
-                0x000000000800075c                OTG_FS_IRQHandler
-                0x000000000800075c                SPI3_IRQHandler
-                0x000000000800075c                DMA1_Stream4_IRQHandler
-                0x000000000800075c                I2C1_ER_IRQHandler
-                0x000000000800075c                DMA2_Stream6_IRQHandler
-                0x0000000008000762                Reset_Handler
+ .text          0x08000188        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+ .text          0x08000188        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .text          0x08000188      0x140 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+                0x08000188                _stack_init
+                0x08000218                _mainCRTStartup
+                0x08000218                _start
+ .text          0x080002c8      0x508 main.o
+                0x080002c8                main
+                0x080002f8                idle_task
+                0x08000300                task1_handler
+                0x08000324                task2_handler
+                0x08000348                task3_handler
+                0x0800036c                task4_handler
+                0x08000390                init_systick_timer
+                0x080003f8                init_scheduler_stack
+                0x08000402                init_tasks_stack
+                0x0800051c                enable_processor_faults
+                0x08000558                get_psp_value
+                0x08000578                save_psp_value
+                0x080005a0                update_next_task
+                0x08000628                switch_sp_to_psp
+                0x08000642                schedule
+                0x08000668                task_delay
+                0x080006c8                PendSV_Handler
+                0x080006ee                update_global_tick_count
+                0x08000708                unblock_tasks
+                0x08000768                SysTick_Handler
+                0x08000794                HardFault_Handler
+                0x080007a8                MemManage_Handler
+                0x080007bc                BusFault_Handler
+ .text          0x080007d0       0xfc led.o
+                0x080007d0                delay
+                0x080007f8                led_init_all
+                0x0800086c                led_on
+                0x0800089c                led_off
+ .text          0x080008cc       0x8c stm32_startup.o
+                0x080008cc                DMA1_Stream3_IRQHandler
+                0x080008cc                HASH_RNG_IRQHandler
+                0x080008cc                EXTI2_IRQHandler
+                0x080008cc                TIM8_CC_IRQHandler
+                0x080008cc                DebugMon_Handler
+                0x080008cc                TIM1_CC_IRQHandler
+                0x080008cc                DMA2_Stream5_IRQHandler
+                0x080008cc                DMA1_Stream5_IRQHandler
+                0x080008cc                PVD_IRQHandler
+                0x080008cc                SDIO_IRQHandler
+                0x080008cc                TAMP_STAMP_IRQHandler
+                0x080008cc                NMI_Handler
+                0x080008cc                CAN2_RX1_IRQHandler
+                0x080008cc                EXTI3_IRQHandler
+                0x080008cc                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080008cc                TIM1_UP_TIM10_IRQHandler
+                0x080008cc                TIM8_UP_TIM13_IRQHandler
+                0x080008cc                I2C3_ER_IRQHandler
+                0x080008cc                EXTI0_IRQHandler
+                0x080008cc                I2C2_EV_IRQHandler
+                0x080008cc                DMA1_Stream2_IRQHandler
+                0x080008cc                CAN1_RX0_IRQHandler
+                0x080008cc                FPU_IRQHandler
+                0x080008cc                OTG_HS_WKUP_IRQHandler
+                0x080008cc                UsageFault_Handler
+                0x080008cc                CAN2_SCE_IRQHandler
+                0x080008cc                DMA2_Stream2_IRQHandler
+                0x080008cc                SPI1_IRQHandler
+                0x080008cc                TIM6_DAC_IRQHandler
+                0x080008cc                TIM1_BRK_TIM9_IRQHandler
+                0x080008cc                DCMI_IRQHandler
+                0x080008cc                CAN2_RX0_IRQHandler
+                0x080008cc                DMA2_Stream3_IRQHandler
+                0x080008cc                USART6_IRQHandler
+                0x080008cc                USART3_IRQHandler
+                0x080008cc                CRYP_IRQHandler
+                0x080008cc                RTC_Alarm_IRQHandler
+                0x080008cc                CAN1_RX1_IRQHandler
+                0x080008cc                UART5_IRQHandler
+                0x080008cc                DMA2_Stream0_IRQHandler
+                0x080008cc                TIM4_IRQHandler
+                0x080008cc                I2C1_EV_IRQHandler
+                0x080008cc                DMA1_Stream6_IRQHandler
+                0x080008cc                DMA1_Stream1_IRQHandler
+                0x080008cc                UART4_IRQHandler
+                0x080008cc                TIM3_IRQHandler
+                0x080008cc                RCC_IRQHandler
+                0x080008cc                TIM8_BRK_TIM12_IRQHandler
+                0x080008cc                Default_Handler
+                0x080008cc                EXTI15_10_IRQHandler
+                0x080008cc                ADC_IRQHandler
+                0x080008cc                DMA1_Stream7_IRQHandler
+                0x080008cc                TIM7_IRQHandler
+                0x080008cc                CAN2_TX_IRQHandler
+                0x080008cc                TIM5_IRQHandler
+                0x080008cc                DMA2_Stream7_IRQHandler
+                0x080008cc                I2C3_EV_IRQHandler
+                0x080008cc                EXTI9_5_IRQHandler
+                0x080008cc                RTC_WKUP_IRQHandler
+                0x080008cc                ETH_WKUP_IRQHandler
+                0x080008cc                SPI2_IRQHandler
+                0x080008cc                OTG_HS_EP1_IN_IRQHandler
+                0x080008cc                DMA1_Stream0_IRQHandler
+                0x080008cc                CAN1_TX_IRQHandler
+                0x080008cc                SVC_Handler
+                0x080008cc                EXTI4_IRQHandler
+                0x080008cc                FSMC_IRQHandler
+                0x080008cc                ETH_IRQHandler
+                0x080008cc                OTG_HS_EP1_OUT_IRQHandler
+                0x080008cc                WWDG_IRQHandler
+                0x080008cc                TIM2_IRQHandler
+                0x080008cc                OTG_FS_WKUP_IRQHandler
+                0x080008cc                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080008cc                OTG_HS_IRQHandler
+                0x080008cc                EXTI1_IRQHandler
+                0x080008cc                USART2_IRQHandler
+                0x080008cc                I2C2_ER_IRQHandler
+                0x080008cc                DMA2_Stream1_IRQHandler
+                0x080008cc                CAN1_SCE_IRQHandler
+                0x080008cc                DMA2_Stream4_IRQHandler
+                0x080008cc                USART1_IRQHandler
+                0x080008cc                OTG_FS_IRQHandler
+                0x080008cc                SPI3_IRQHandler
+                0x080008cc                DMA1_Stream4_IRQHandler
+                0x080008cc                I2C1_ER_IRQHandler
+                0x080008cc                DMA2_Stream6_IRQHandler
+                0x080008d4                Reset_Handler
+ .text          0x08000958      0x25c syscalls.o
+                0x08000958                initialise_monitor_handles
+                0x08000964                _getpid
+                0x08000972                _kill
+                0x08000992                _exit
+                0x080009a8                _read
+                0x080009e2                _write
+                0x08000a1a                _close
+                0x08000a30                _fstat
+                0x08000a4e                _isatty
+                0x08000a62                _lseek
+                0x08000a7a                _open
+                0x08000a94                _wait
+                0x08000ab2                _unlink
+                0x08000ad0                _times
+                0x08000ae6                _stat
+                0x08000b04                _link
+                0x08000b24                _fork
+                0x08000b3a                _execve
+                0x08000b5c                _sbrk
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+ .text          0x08000bb4        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
+ *(.text.*)
+ .text.deregister_tm_clones
+                0x08000bb4       0x2c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .text.register_tm_clones
+                0x08000be0       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x08000c18       0x44 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .text.frame_dummy
+                0x08000c5c       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .text.exit     0x08000c90       0x3c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+                0x08000c90                exit
+ .text.std      0x08000ccc       0xb0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x08000d7c       0x28 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x08000da4       0x54 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x08000df8       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x08000e30       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x08000e68       0x54 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x08000ebc       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x08000ebc                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x08000ed4       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x08000ed4                __sfp_lock_release
+ .text.__sfp    0x08000eec      0x108 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x08000eec                __sfp
+ .text.__sinit  0x08000ff4       0x48 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x08000ff4                __sinit
+ .text.__fp_lock_all
+                0x0800103c       0x28 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x0800103c                __fp_lock_all
+ .text.__fp_unlock_all
+                0x08001064       0x24 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x08001064                __fp_unlock_all
+ .text._fwalk_sglue
+                0x08001088       0x70 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+                0x08001088                _fwalk_sglue
+ .text._puts_r  0x080010f8      0x140 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+                0x080010f8                _puts_r
+ .text.puts     0x08001238       0x14 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+                0x08001238                puts
+ .text.memset   0x0800124c       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+                0x0800124c                memset
+ .text.__errno  0x08001264       0x10 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+                0x08001264                __errno
+ .text.__libc_init_array
+                0x08001274       0x80 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+                0x08001274                __libc_init_array
+ .text.__retarget_lock_init
+                0x080012f4        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x080012f4                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0x080012f8        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x080012f8                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0x080012fc        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x080012fc                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0x08001300        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x08001300                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0x08001304        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x08001304                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0x08001308        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x08001308                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0x0800130c        0x8 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x0800130c                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0x08001314        0x8 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x08001314                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0x0800131c        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x0800131c                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0x08001320        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x08001320                __retarget_lock_release_recursive
+ .text.sbrk_aligned
+                0x08001324       0x74 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x08001398      0x19c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+                0x08001398                _malloc_r
+ .text.__sflush_r
+                0x08001534      0x1dc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+                0x08001534                __sflush_r
+ .text._fflush_r
+                0x08001710       0x94 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+                0x08001710                _fflush_r
+ .text.fflush   0x080017a4       0x3c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+                0x080017a4                fflush
+ .text.__malloc_lock
+                0x080017e0       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+                0x080017e0                __malloc_lock
+ .text.__malloc_unlock
+                0x080017f8       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+                0x080017f8                __malloc_unlock
+ .text.__sread  0x08001810       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                0x08001810                __sread
+ .text.__seofread
+                0x08001844        0x8 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                0x08001844                __seofread
+ .text.__swrite
+                0x0800184c       0x58 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                0x0800184c                __swrite
+ .text.__sseek  0x080018a4       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                0x080018a4                __sseek
+ .text.__sclose
+                0x080018d8       0x14 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+                0x080018d8                __sclose
+ .text.__swbuf_r
+                0x080018ec       0xf4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+                0x080018ec                __swbuf_r
+ .text.__swbuf  0x080019e0       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+                0x080019e0                __swbuf
+ .text.__swsetup_r
+                0x080019f8      0x11c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+                0x080019f8                __swsetup_r
+ .text.__swhatbuf_r
+                0x08001b14       0x78 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+                0x08001b14                __swhatbuf_r
+ .text.__smakebuf_r
+                0x08001b8c       0xd0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+                0x08001b8c                __smakebuf_r
+ .text._close_r
+                0x08001c5c       0x3c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+                0x08001c5c                _close_r
+ .text._reclaim_reent
+                0x08001c98      0x130 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+                0x08001c98                _reclaim_reent
+ .text._fstat_r
+                0x08001dc8       0x40 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+                0x08001dc8                _fstat_r
+ .text._isatty_r
+                0x08001e08       0x3c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+                0x08001e08                _isatty_r
+ .text._lseek_r
+                0x08001e44       0x44 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+                0x08001e44                _lseek_r
+ .text._read_r  0x08001e88       0x44 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+                0x08001e88                _read_r
+ .text._sbrk_r  0x08001ecc       0x3c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+                0x08001ecc                _sbrk_r
+ .text._write_r
+                0x08001f08       0x44 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+                0x08001f08                _write_r
+ .text._free_r  0x08001f4c      0x10c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+                0x08001f4c                _free_r
+ *(.init)
+ .init          0x08002058        0xc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+                0x08002058                _init
+ .init          0x08002064        0xc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
+ *(.fini)
+ .fini          0x08002070        0xc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+                0x08002070                _fini
+ .fini          0x0800207c        0xc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
  *(.rodata)
- .rodata        0x00000000080007e8        0x9 main.o
-                0x00000000080007e8                const_v_1
-                0x00000000080007ec                const_v_2
-                0x00000000080007f0                const_v_3
-                0x00000000080007f4                . = ALIGN (0x4)
- *fill*         0x00000000080007f1        0x3 
-                0x00000000080007f4                _etext = .
+ .rodata        0x08002088       0x51 main.o
+                0x08002088                const_v_1
+                0x0800208c                const_v_2
+                0x08002090                const_v_3
+ *(.rodata.*)
+ *fill*         0x080020d9        0x3 
+ .rodata.all_implied_fbits
+                0x080020dc       0x24 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .rodata.all_implied_fbits
+                0x08002100       0x24 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+                0x08002124                        . = ALIGN (0x4)
+                0x08002124                        _etext = .
 
-.glue_7         0x00000000080007f4        0x0
- .glue_7        0x00000000080007f4        0x0 linker stubs
+.glue_7         0x08002124        0x0
+ .glue_7        0x08002124        0x0 linker stubs
 
-.glue_7t        0x00000000080007f4        0x0
- .glue_7t       0x00000000080007f4        0x0 linker stubs
+.glue_7t        0x08002124        0x0
+ .glue_7t       0x08002124        0x0 linker stubs
 
-.vfp11_veneer   0x00000000080007f4        0x0
- .vfp11_veneer  0x00000000080007f4        0x0 linker stubs
+.vfp11_veneer   0x08002124        0x0
+ .vfp11_veneer  0x08002124        0x0 linker stubs
 
-.v4_bx          0x00000000080007f4        0x0
- .v4_bx         0x00000000080007f4        0x0 linker stubs
+.v4_bx          0x08002124        0x0
+ .v4_bx         0x08002124        0x0 linker stubs
 
-.iplt           0x00000000080007f4        0x0
- .iplt          0x00000000080007f4        0x0 main.o
+.iplt           0x08002124        0x0
+ .iplt          0x08002124        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
 
-.rel.dyn        0x00000000080007f4        0x0
- .rel.iplt      0x00000000080007f4        0x0 main.o
+.eh_frame       0x08002124        0x4
+ .eh_frame      0x08002124        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .eh_frame      0x08002124        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
 
-.data           0x0000000020000000        0x4 load address 0x00000000080007f4
-                0x0000000020000000                _sdata = .
+.ARM.extab      0x08002128        0x0
+ .ARM.extab     0x08002128        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+
+.ARM.exidx      0x08002128        0x8
+ .ARM.exidx     0x08002128        0x8 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+                                 0x10 (size before relaxing)
+
+.rel.dyn        0x08002130        0x0
+ .rel.iplt      0x08002130        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+
+.data           0x20000000       0x68 load address 0x08002130
+                0x20000000                        _sdata = .
  *(.data)
- .data          0x0000000020000000        0x1 main.o
-                0x0000000020000000                current_task
- .data          0x0000000020000001        0x0 led.o
- .data          0x0000000020000001        0x0 stm32_startup.o
-                0x0000000020000004                . = ALIGN (0x4)
- *fill*         0x0000000020000001        0x3 
-                0x0000000020000004                _edata = .
+ .data          0x20000000        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+ .data          0x20000000        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .data          0x20000000        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+ .data          0x20000000        0x1 main.o
+                0x20000000                current_task
+ .data          0x20000001        0x0 led.o
+ .data          0x20000001        0x0 stm32_startup.o
+ *fill*         0x20000001        0x3 
+ .data          0x20000004        0x4 syscalls.o
+                0x20000004                environ
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+ .data          0x20000008        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
+ *(.data.*)
+ .data.__dso_handle
+                0x20000008        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+                0x20000008                __dso_handle
+ .data.__sglue  0x2000000c        0xc /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x2000000c                __sglue
+ .data._impure_ptr
+                0x20000018        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+                0x20000018                _impure_ptr
+ .data._impure_data
+                0x2000001c       0x4c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+                0x2000001c                _impure_data
+                0x20000068                        . = ALIGN (0x4)
+                0x20000068                        _edata = .
 
-.igot.plt       0x0000000020000004        0x0 load address 0x00000000080007f8
- .igot.plt      0x0000000020000004        0x0 main.o
+.init_array     0x20000068        0x4 load address 0x08002198
+ .init_array    0x20000068        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
 
-.bss            0x0000000020000004       0x54 load address 0x00000000080007f8
-                0x0000000020000004                _sbss = .
+.fini_array     0x2000006c        0x4 load address 0x0800219c
+ .fini_array    0x2000006c        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+
+.tm_clone_table
+                0x20000070        0x0 load address 0x080021a0
+ .tm_clone_table
+                0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .tm_clone_table
+                0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+
+.igot.plt       0x20000070        0x0 load address 0x080021a0
+ .igot.plt      0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+
+.bss            0x20000070      0x1c8 load address 0x080021a0
+                0x20000070                        _sbss = .
+                0x20000070                        __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000004       0x54 main.o
-                0x0000000020000004                g_tick_count
-                0x0000000020000008                user_tasks
- .bss           0x0000000020000058        0x0 led.o
- .bss           0x0000000020000058        0x0 stm32_startup.o
-                0x0000000020000058                . = ALIGN (0x4)
-                0x0000000020000058                _ebss = .
+ .bss           0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
+ .bss           0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .bss           0x20000070        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+ .bss           0x20000070       0x54 main.o
+                0x20000070                g_tick_count
+                0x20000074                user_tasks
+ .bss           0x200000c4        0x0 led.o
+ .bss           0x200000c4        0x0 stm32_startup.o
+ .bss           0x200000c4        0x8 syscalls.o
+                0x200000c4                __env
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+ .bss           0x200000cc        0x0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
+ *(.bss.*)
+ .bss.completed.1
+                0x200000cc        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ *fill*         0x200000cd        0x3 
+ .bss.object.0  0x200000d0       0x18 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
+ .bss.__sf      0x200000e8      0x138 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x200000e8                __sf
+ .bss.__stdio_exit_handler
+                0x20000220        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+                0x20000220                __stdio_exit_handler
+ .bss.__lock___arc4random_mutex
+                0x20000224        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000224                __lock___arc4random_mutex
+ .bss.__lock___dd_hash_mutex
+                0x20000225        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000225                __lock___dd_hash_mutex
+ .bss.__lock___tz_mutex
+                0x20000226        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000226                __lock___tz_mutex
+ .bss.__lock___env_recursive_mutex
+                0x20000227        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000227                __lock___env_recursive_mutex
+ .bss.__lock___malloc_recursive_mutex
+                0x20000228        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000228                __lock___malloc_recursive_mutex
+ .bss.__lock___at_quick_exit_mutex
+                0x20000229        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x20000229                __lock___at_quick_exit_mutex
+ .bss.__lock___atexit_recursive_mutex
+                0x2000022a        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x2000022a                __lock___atexit_recursive_mutex
+ .bss.__lock___sfp_recursive_mutex
+                0x2000022b        0x1 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+                0x2000022b                __lock___sfp_recursive_mutex
+ .bss.__malloc_sbrk_start
+                0x2000022c        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+                0x2000022c                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x20000230        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+                0x20000230                __malloc_free_list
+ .bss.errno     0x20000234        0x4 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+                0x20000234                errno
+                0x20000238                        . = ALIGN (0x4)
+                0x20000238                        _ebss = .
+                0x20000238                        __bss_end__ = _ebss
+                0x20000238                        . = ALIGN (0x4)
+                0x20000238                        end = .
 OUTPUT(final.elf elf32-littlearm)
 LOAD linker stubs
 
-.comment        0x0000000000000000       0x49
- .comment       0x0000000000000000       0x49 main.o
-                                         0x4a (size before relaxing)
- .comment       0x0000000000000049       0x4a led.o
- .comment       0x0000000000000049       0x4a stm32_startup.o
-
 .ARM.attributes
-                0x0000000000000000       0x2e
+                0x00000000       0x2c
  .ARM.attributes
-                0x0000000000000000       0x2e main.o
+                0x00000000       0x1c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crti.o
  .ARM.attributes
-                0x000000000000002e       0x2e led.o
+                0x0000001c       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtbegin.o
  .ARM.attributes
-                0x000000000000005c       0x2e stm32_startup.o
+                0x00000046       0x1a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.attributes
+                0x00000060       0x2e main.o
+ .ARM.attributes
+                0x0000008e       0x2e led.o
+ .ARM.attributes
+                0x000000bc       0x2e stm32_startup.o
+ .ARM.attributes
+                0x000000ea       0x2e syscalls.o
+ .ARM.attributes
+                0x00000118       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000142       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x0000016c       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000196       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+ .ARM.attributes
+                0x000001c0       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000001ea       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000214       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x0000023e       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000268       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000292       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x000002bc       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x000002e6       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000310       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x0000033a       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+ .ARM.attributes
+                0x00000364       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+ .ARM.attributes
+                0x0000038e       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+ .ARM.attributes
+                0x000003b8       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x000003e2       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x0000040c       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+ .ARM.attributes
+                0x00000436       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+ .ARM.attributes
+                0x00000460       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x0000048a       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x000004b4       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x000004de       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000508       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000532       0x2a /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtend.o
+ .ARM.attributes
+                0x0000055c       0x1c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/crtn.o
+
+.comment        0x00000000       0x55
+ .comment       0x00000000       0x55 main.o
+                                 0x56 (size before relaxing)
+ .comment       0x00000055       0x56 led.o
+ .comment       0x00000055       0x56 stm32_startup.o
+ .comment       0x00000055       0x56 syscalls.o
+
+.debug_line_str
+                0x00000000       0xdb
+ .debug_line_str
+                0x00000000       0xdb /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/crt0.o
+
+.debug_frame    0x00000000      0x7f0
+ .debug_frame   0x00000000       0x28 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000028      0x178 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000001a0       0x44 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x000001e4       0x48 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-puts.o)
+ .debug_frame   0x0000022c       0x20 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000024c       0x20 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000026c       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x000002a4       0xb0 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000354       0x68 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x000003bc       0x80 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x0000043c       0x48 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000484       0x9c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000520       0x4c /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x0000056c       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x000005a4       0x68 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x0000060c       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000640       0x40 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000680       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x000006b4       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x000006e8       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x0000071c       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000750       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000784       0x34 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x000007b8       0x38 /Users/nahl/toolchains/arm-gnu-toolchain-12.2.mpacbti-rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc_nano.a(libc_a-freer.o)

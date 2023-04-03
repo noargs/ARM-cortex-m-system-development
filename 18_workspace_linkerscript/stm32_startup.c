@@ -16,6 +16,8 @@ extern uint32_t _ebss;
 // prototype of main
 int main(void);
 
+void __libc_init_array(void);
+
 /* function prototypes of STM32F407x system exception and IRQ handlers */
 void Reset_Handler(void);
 void NMI_Handler 					        (void) __attribute__ ((weak, alias("Default_Handler")));
@@ -236,6 +238,7 @@ void Reset_Handler(void)
 	}
 	
 	// Call init function of std library
+	__libc_init_array();
 	
 	// Call main()
 	main();
