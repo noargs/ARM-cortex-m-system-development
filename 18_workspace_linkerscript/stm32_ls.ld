@@ -29,6 +29,7 @@ SECTIONS
 	{
 		_sbss = .;
 		*(.bss)
+		. = ALIGN(4);
 		_ebss = .;
 	}> SRAM
 }

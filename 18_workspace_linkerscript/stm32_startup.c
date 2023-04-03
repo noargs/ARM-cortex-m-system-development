@@ -10,6 +10,12 @@ extern uint32_t _etext;
 extern uint32_t _sdata;
 extern uint32_t _edata;
 
+extern uint32_t _sbss;
+extern uint32_t _ebss;
+
+// prototype of main
+int main(void);
+
 /* function prototypes of STM32F407x system exception and IRQ handlers */
 void Reset_Handler(void);
 void NMI_Handler 					        (void) __attribute__ ((weak, alias("Default_Handler")));
@@ -209,10 +215,26 @@ void Default_Handler(void){while(1);}
 void Reset_Handler(void)
 {
 	// Copy .data section to SRAM
+	uint32_t size = &_edata - &_sdata; // (i.e. 0x20000000 - 0x20000004 = 0x4 word = 32 bit)
+	
+	uint8_t *destination = (uint8_t*)&_sdata; // SRAM  (i.e. 0x20000000)
+	uint8_t *source = (uint8_t*)&_etext;      // FLASH (i.e. 0x080007f4)
+	
+	for (uint32_t i=0; i<size; i++)
+	{
+		*destination++ = *source++;
+	}
 	
 	// Initialise the .bss section to zero in SRAM
+	size = &_ebss - &_sbss;
+	destination = (uint8_t*)&_sbss;
+	for (uint32_t i=0; i<size; i++)
+	{
+		*destination++ = 0;
+	}
 	
 	// Call init function of std library
 	
 	// Call main()
+	main();
 }
