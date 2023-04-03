@@ -53,6 +53,8 @@ int main(void)
 	enable_processor_faults();
 
 	init_scheduler_stack(SCHED_STACK_START);
+	
+	printf("Implementation of simple task scheduler\n");
 
 	init_tasks_stack();
 
