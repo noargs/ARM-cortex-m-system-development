@@ -215,7 +215,8 @@ void Default_Handler(void){while(1);}
 void Reset_Handler(void)
 {
 	// Copy .data section to SRAM
-	uint32_t size = &_edata - &_sdata; // (i.e. 0x20000000 - 0x20000004 = 0x4 word = 32 bit)
+	// (i.e. 0x20000000 - 0x20000004 = 0x4 word = 32 bit)
+	uint32_t size = (uint32_t)&_edata - (uint32_t)&_sdata; 
 	
 	uint8_t *destination = (uint8_t*)&_sdata; // SRAM  (i.e. 0x20000000)
 	uint8_t *source = (uint8_t*)&_etext;      // FLASH (i.e. 0x080007f4)
@@ -226,7 +227,8 @@ void Reset_Handler(void)
 	}
 	
 	// Initialise the .bss section to zero in SRAM
-	size = &_ebss - &_sbss;
+	size = (uint32_t)&_ebss - (uint32_t)&_sbss;
+	
 	destination = (uint8_t*)&_sbss;
 	for (uint32_t i=0; i<size; i++)
 	{

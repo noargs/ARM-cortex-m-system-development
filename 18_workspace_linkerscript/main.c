@@ -24,7 +24,7 @@ void task_delay(uint32_t tick_count);
 
 
 /* This variable tracks the current_task being executed on the CPU */
-uint8_t current_task = 1; //task1 is running
+uint8_t current_task = 1; //task1 is running, total are 5, (0-4)
 
 /* This variable gets updated from systick handler for every systick interrupt */
 uint32_t g_tick_count = 0;

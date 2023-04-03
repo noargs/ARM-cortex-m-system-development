@@ -12,7 +12,7 @@ LOAD main.o
 LOAD led.o
 LOAD stm32_startup.o
 
-.text           0x0000000008000000      0x7f8
+.text           0x0000000008000000      0x7f4
  *(.isr_vector)
  .isr_vector    0x0000000008000000      0x188 stm32_startup.o
                 0x0000000008000000                vectors
@@ -46,7 +46,7 @@ LOAD stm32_startup.o
                 0x0000000008000688                led_init_all
                 0x00000000080006fc                led_on
                 0x000000000800072c                led_off
- .text          0x000000000800075c       0x90 stm32_startup.o
+ .text          0x000000000800075c       0x8c stm32_startup.o
                 0x000000000800075c                DMA1_Stream3_IRQHandler
                 0x000000000800075c                HASH_RNG_IRQHandler
                 0x000000000800075c                EXTI2_IRQHandler
@@ -135,33 +135,33 @@ LOAD stm32_startup.o
                 0x000000000800075c                DMA2_Stream6_IRQHandler
                 0x0000000008000762                Reset_Handler
  *(.rodata)
- .rodata        0x00000000080007ec        0x9 main.o
-                0x00000000080007ec                const_v_1
-                0x00000000080007f0                const_v_2
-                0x00000000080007f4                const_v_3
-                0x00000000080007f8                . = ALIGN (0x4)
- *fill*         0x00000000080007f5        0x3 
-                0x00000000080007f8                _etext = .
+ .rodata        0x00000000080007e8        0x9 main.o
+                0x00000000080007e8                const_v_1
+                0x00000000080007ec                const_v_2
+                0x00000000080007f0                const_v_3
+                0x00000000080007f4                . = ALIGN (0x4)
+ *fill*         0x00000000080007f1        0x3 
+                0x00000000080007f4                _etext = .
 
-.glue_7         0x00000000080007f8        0x0
- .glue_7        0x00000000080007f8        0x0 linker stubs
+.glue_7         0x00000000080007f4        0x0
+ .glue_7        0x00000000080007f4        0x0 linker stubs
 
-.glue_7t        0x00000000080007f8        0x0
- .glue_7t       0x00000000080007f8        0x0 linker stubs
+.glue_7t        0x00000000080007f4        0x0
+ .glue_7t       0x00000000080007f4        0x0 linker stubs
 
-.vfp11_veneer   0x00000000080007f8        0x0
- .vfp11_veneer  0x00000000080007f8        0x0 linker stubs
+.vfp11_veneer   0x00000000080007f4        0x0
+ .vfp11_veneer  0x00000000080007f4        0x0 linker stubs
 
-.v4_bx          0x00000000080007f8        0x0
- .v4_bx         0x00000000080007f8        0x0 linker stubs
+.v4_bx          0x00000000080007f4        0x0
+ .v4_bx         0x00000000080007f4        0x0 linker stubs
 
-.iplt           0x00000000080007f8        0x0
- .iplt          0x00000000080007f8        0x0 main.o
+.iplt           0x00000000080007f4        0x0
+ .iplt          0x00000000080007f4        0x0 main.o
 
-.rel.dyn        0x00000000080007f8        0x0
- .rel.iplt      0x00000000080007f8        0x0 main.o
+.rel.dyn        0x00000000080007f4        0x0
+ .rel.iplt      0x00000000080007f4        0x0 main.o
 
-.data           0x0000000020000000        0x4 load address 0x00000000080007f8
+.data           0x0000000020000000        0x4 load address 0x00000000080007f4
                 0x0000000020000000                _sdata = .
  *(.data)
  .data          0x0000000020000000        0x1 main.o
@@ -172,10 +172,10 @@ LOAD stm32_startup.o
  *fill*         0x0000000020000001        0x3 
                 0x0000000020000004                _edata = .
 
-.igot.plt       0x0000000020000004        0x0 load address 0x00000000080007fc
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000080007f8
  .igot.plt      0x0000000020000004        0x0 main.o
 
-.bss            0x0000000020000004       0x54 load address 0x00000000080007fc
+.bss            0x0000000020000004       0x54 load address 0x00000000080007f8
                 0x0000000020000004                _sbss = .
  *(.bss)
  .bss           0x0000000020000004       0x54 main.o
