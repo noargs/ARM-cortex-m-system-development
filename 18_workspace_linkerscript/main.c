@@ -47,10 +47,15 @@ typedef struct
 /* Each task has its own TCB */
 TCB_t user_tasks[MAX_TASKS];
 
+// semi-hosting init function prototype
+extern void initialise_monitor_handles(void);
+
 int main(void)
 {
 
 	enable_processor_faults();
+	
+	initialise_monitor_handles();
 
 	init_scheduler_stack(SCHED_STACK_START);
 	
@@ -80,6 +85,7 @@ void task1_handler(void)
 {
 	while(1)
 	{
+		printf("Task1 is executing\n");
 		led_on(LED_GREEN);
 		delay(DELAY_COUNT_1S);
 		led_off(LED_GREEN);
@@ -92,6 +98,7 @@ void task2_handler(void)
 {
 	while(1)
 	{
+		printf("Task2 is executing\n");
 		led_on(LED_ORANGE);
 		delay(DELAY_COUNT_500MS);
 		led_off(LED_ORANGE);
@@ -104,6 +111,7 @@ void task3_handler(void)
 {
 	while(1)
 	{
+		printf("Task3 is executing\n");
 		led_on(LED_BLUE);
 		delay(DELAY_COUNT_250MS);
 		led_off(LED_BLUE);
@@ -117,6 +125,7 @@ void task4_handler(void)
 {
 	while(1)
 	{
+		printf("Task4 is executing\n");
 		led_on(LED_RED);
 		delay(DELAY_COUNT_125MS);
 		led_off(LED_RED);

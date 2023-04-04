@@ -9,6 +9,7 @@
 extern uint32_t _etext;
 extern uint32_t _sdata;
 extern uint32_t _edata;
+extern uint32_t _la_data;
 
 extern uint32_t _sbss;
 extern uint32_t _ebss;
@@ -221,7 +222,8 @@ void Reset_Handler(void)
 	uint32_t size = (uint32_t)&_edata - (uint32_t)&_sdata; 
 	
 	uint8_t *destination = (uint8_t*)&_sdata; // SRAM  (i.e. 0x20000000)
-	uint8_t *source = (uint8_t*)&_etext;      // FLASH (i.e. 0x080007f4)
+	// uint8_t *source = (uint8_t*)&_etext;      // FLASH (i.e. 0x080007f4)
+	uint8_t *source = (uint8_t*)&_la_data;
 	
 	for (uint32_t i=0; i<size; i++)
 	{
