@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 
-#define MAX_TASKS			 4
-#define DUMMY_XPSR			 0x01000000U
+#define MAX_TASKS			       4
+#define DUMMY_XPSR			     0x01000000U
 
 /* stacks memory calculation */
 #define SIZE_TASK_STACK      1024U

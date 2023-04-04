@@ -11,7 +11,7 @@ void task4_handler(void); // task4 of the application
 
 __attribute__((naked)) void init_systick_timer(uint32_t tick_hz);
 __attribute__((naked)) void init_scheduler_stack(uint32_t sched_stack_start);
-void init_task_stack();
+void init_tasks_stack();
 void enable_processor_faults(void);
 uint32_t get_psp_value(void);
 __attribute__((naked)) void switch_sp_to_psp(void);
@@ -22,7 +22,7 @@ void update_next_task(void);
 uint32_t psp_of_tasks[MAX_TASKS] = {T1_STACK_START, T2_STACK_START, T3_STACK_START, T4_STACK_START};
 uint32_t task_handlers[MAX_TASKS];
 
-uint8_t current_task = 0; // task1 is running
+uint8_t current_task = 0; // task1 is running - running on the processor
 
 int main(void)
 {
@@ -36,7 +36,7 @@ int main(void)
 	task_handlers[2] = (uint32_t)task3_handler;
 	task_handlers[3] = (uint32_t)task4_handler;
 
-	init_task_stack();
+	init_tasks_stack();
 
 	led_init_all();
 
@@ -103,8 +103,9 @@ void task4_handler(void)
 
 void init_systick_timer(uint32_t tick_hz)
 {
-	uint32_t *p_scsr = (uint32_t*)0xE000E010;
 	uint32_t *p_srvr = (uint32_t*)0xE000E014;
+	uint32_t *p_scsr = (uint32_t*)0xE000E010;
+
 
 	// to generate exception every 100 clock cycles use 100 - 1 = 99 reload value for SRVR
 	uint32_t count_value = (SYSTICK_TIM_CLK / tick_hz) - 1;
@@ -129,14 +130,14 @@ __attribute__((naked)) void init_scheduler_stack(uint32_t sched_stack_start){
 	__asm volatile("BX LR");
 }
 
-void init_task_stack(){
+void init_tasks_stack(){
 
 	uint32_t *psp;
 	for(int i=0; i < MAX_TASKS; i++){
 		psp = (uint32_t*) psp_of_tasks[i];
 
 		psp--;
-		*psp = DUMMY_XPSR; // xPSR 0x00100000
+		*psp = DUMMY_XPSR; // xPSR 0x01000000
 
 		psp--; // PC
 		*psp = task_handlers[i];
@@ -176,17 +177,17 @@ void save_psp_value(uint32_t current_psp_value)
 void update_next_task(void)
 {
 	current_task++;
-	current_task %= MAX_TASKS;
+	current_task %= MAX_TASKS; // current_task = current_task % MAX_TASKS
 }
 
 __attribute__((naked)) void switch_sp_to_psp(void)
 {
 	//1. initialise the PSP with TASK1 stack start
 	// get the value of psp of current_task
-	__asm volatile ("PUSH {LR}");
+	__asm volatile ("PUSH {LR}");       // preserve LR which connects back to main()
 	__asm volatile ("BL get_psp_value");
-	__asm volatile ("MSR PSP,R0");
-	__asm volatile ("POP {LR}");
+	__asm volatile ("MSR PSP,R0");      // initialise psp
+	__asm volatile ("POP {LR}");        // pops back LR value
 
 	//2. change SP to PSP using CONTROL register
 	__asm volatile ("MOV R0,#0X02");
@@ -200,7 +201,7 @@ __attribute__((naked)) void SysTick_Handler(void)
 
 	//1. Get current running task's PSP value
 	__asm volatile ("MRS R0,PSP");
-	//2. Using that PSP value store SF2 (R4 to R11)
+	//2. Using that PSP value store SF2 (R4 to R11) as SF1 is stored by default
 	__asm volatile ("STMDB R0!,{R4-R11}");
 
 	// important to save LR value before running
@@ -216,7 +217,7 @@ __attribute__((naked)) void SysTick_Handler(void)
 	__asm volatile ("BL update_next_task");
 	//2. get its past PSP value
 	__asm volatile ("BL get_psp_value");
-	//3. Using that PSP value retrieve SF2 (R4 to R11)
+	//3. Using that PSP value retrieve SF2 (R4 to R11) - Data movement from memory -> register
 	__asm volatile ("LDMIA R0!,{R4-R11}");
 	//4. update PSP and exit
 	__asm volatile ("MSR PSP,R0");
@@ -241,6 +242,11 @@ void MemManage_Handler(void)
 void BusFault_Handler(void)
 {
 	printf("Exception : BusFault\n");
+	while(1);
+}
+void UsageFault_Handler(void)
+{
+	printf("Exception : UsageFault\n");
 	while(1);
 }
 
