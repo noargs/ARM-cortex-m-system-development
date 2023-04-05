@@ -72,9 +72,9 @@ void task1_handler(void)
 	while(1)
 	{
 		led_on(LED_GREEN);
-		delay(DELAY_COUNT_1S);
+		task_delay(1000);
 		led_off(LED_GREEN);
-		delay(DELAY_COUNT_1S);
+		task_delay(1000);
 
 		//printf("This is task1\n");
 	}
@@ -85,9 +85,9 @@ void task2_handler(void)
 	while(1)
 	{
 		led_on(LED_ORANGE);
-		delay(DELAY_COUNT_500MS);
+		task_delay(500);
 		led_off(LED_ORANGE);
-		delay(DELAY_COUNT_500MS);
+		task_delay(500);
 
 		// printf("This is task2\n");
 	}
@@ -98,9 +98,9 @@ void task3_handler(void)
 	while(1)
 	{
 		led_on(LED_BLUE);
-		delay(DELAY_COUNT_250MS);
+		task_delay(250);
 		led_off(LED_BLUE);
-		delay(DELAY_COUNT_250MS);
+		task_delay(250);
 
 		// printf("This is task3\n");
 	}
@@ -111,9 +111,9 @@ void task4_handler(void)
 	while(1)
 	{
 		led_on(LED_RED);
-		delay(DELAY_COUNT_125MS);
+		task_delay(125);
 		led_off(LED_RED);
-		delay(DELAY_COUNT_125MS);
+		task_delay(125);
 
 		// printf("This is task4\n");
 	}
@@ -129,7 +129,7 @@ void init_systick_timer(uint32_t tick_hz)
 	uint32_t count_value = (SYSTICK_TIM_CLK / tick_hz) - 1;
 
 	// Clear the value of SVR
-	*p_srvr &= ~(0x00FFFFFF);
+	*p_srvr &= ~(0x00FFFFFFFF);
 
 	// load the value into SVR
 	*p_srvr |= count_value;
@@ -144,7 +144,7 @@ void init_systick_timer(uint32_t tick_hz)
 }
 
 __attribute__((naked)) void init_scheduler_stack(uint32_t sched_stack_start){
-	__asm volatile("MSR MSP,%0": : "r"(sched_stack_start) : );
+	__asm volatile("MSR MSP,%0": : "r" (sched_stack_start) : );
 	__asm volatile("BX LR");
 }
 
@@ -170,29 +170,29 @@ void init_tasks_stack(){
 	user_tasks[3].task_handler = task3_handler;
 	user_tasks[4].task_handler = task4_handler;
 
-	uint32_t *psp;
+	uint32_t *p_psp;
 
 	for(int i=0; i < MAX_TASKS; i++){
 		// psp = (uint32_t*) psp_of_tasks[i];
-		psp = (uint32_t*) user_tasks[i].psp_value;
+		p_psp = (uint32_t*) user_tasks[i].psp_value;
 
-		psp--;
-		*psp = DUMMY_XPSR; // xPSR 0x01000000
+		p_psp--;
+		*p_psp = DUMMY_XPSR; // xPSR 0x01000000
 
-		psp--; // PC
+		p_psp--; // PC
 		//*psp = task_handlers[i];
-		*psp = (uint32_t) user_tasks[i].task_handler;
+		*p_psp = (uint32_t) user_tasks[i].task_handler;
 
-		psp--; // LR - page[2-28] ARM Cortex-M4 DUI0553
-		*psp = 0xFFFFFFFD;
+		p_psp--; // LR - page[2-28] ARM Cortex-M4 DUI0553
+		*p_psp = 0xFFFFFFFD;
 
 		for(int j=0; j < 13; j++){ // rest of 13 registers initialised to 0s
-			psp--;
-			*psp = 0;
+			p_psp--;
+			*p_psp = 0;
 		}
 
-		//psp_of_tasks[i] = (uint32_t)psp;
-		user_tasks[i].psp_value = (uint32_t)psp;
+		//psp_of_tasks[i] = (uint32_t)p_psp;
+		user_tasks[i].psp_value = (uint32_t)p_psp;
 
 	}
 }
@@ -220,8 +220,19 @@ void save_psp_value(uint32_t current_psp_value)
 
 void update_next_task(void)
 {
-	current_task++;
-	current_task %= MAX_TASKS; // current_task = current_task % MAX_TASKS
+	int state = TASK_BLOCKED_STATE;
+
+	for(int i=0; i < (MAX_TASKS); i++) {
+		current_task++;
+		current_task %= MAX_TASKS; // current_task = current_task % MAX_TASKS
+		state = user_tasks[current_task].current_state;
+		if ((state == TASK_READY_STATE) && (current_task != 0))
+				break;
+	}
+
+	if(state != TASK_READY_STATE)
+		current_task = 0;
+
 }
 
 __attribute__((naked)) void switch_sp_to_psp(void)
@@ -243,15 +254,24 @@ void schedule(void)
 {
 	// pend the pendSV exception
 	uint32_t *p_icsr = (uint32_t*)0xE000ED04;
-	*p_icst |= (1 << 28);
+	*p_icsr |= (1 << 28);
 }
 
+
 void task_delay(uint32_t tick_count) {
+
+	// disable interrupt - global variable race condition
+	INTERRUPT_DISABLE();
+
 	if(current_task){
 		user_tasks[current_task].block_count = g_tick_count + tick_count;
 		user_tasks[current_task].current_state = TASK_BLOCKED_STATE;
 		schedule();
 	}
+
+	// enable interrupt back
+	INTERRUPT_ENABLE();
+
 }
 
 __attribute__((naked)) void PendSV_Handler(void) {
@@ -308,7 +328,7 @@ void SysTick_Handler(void)
 	unblock_tasks();
 
 	// pend the pendSV exception
-	*p_icst |= (1 << 28);
+	*p_icsr |= (1 << 28);
 
 }
 
